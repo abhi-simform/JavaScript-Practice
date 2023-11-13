@@ -43,8 +43,6 @@ function success() {
 }
 
 function checkGuess() {
-  console.log(inputNumber.value);
-  console.log(randomNumber);
   if (!inputNumber.value || inputNumber.value > 20 || inputNumber.value < 1) {
     updateMessage('Invalid entry. Please try again.');
     inputNumber.value = null;
